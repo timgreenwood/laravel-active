@@ -1,0 +1,49 @@
+{
+  "name": "timgreenwood/laravel-active",
+  "description": "The helper class for Laravel applications to get active class base on current route",
+  "keywords": [
+    "laravel",
+    "active",
+    "routing"
+  ],
+  "license": "MIT",
+  "homepage": "https://www.timgreenwood.co.uk",
+  "authors": [
+    {
+      "name": "Tim Greenwood",
+      "email": "tim@tgmedia.co.uk",
+      "homepage": "https://www.timgreenwood.co.uk"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^9.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3",
+    "orchestra/testbench": "^7.0",
+    "nunomaduro/collision": "^6.1",
+    "brianium/paratest": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "TimGreenwood\\Active\\": "src/",
+      "TimGreenwood\\ActiveTest\\": "tests/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TimGreenwood\\Active\\ActiveServiceProvider"
+      ],
+      "aliases": {
+        "Active": "TimGreenwood\\Active\\Facades\\Active"
+      }
+    }
+  }
+}
