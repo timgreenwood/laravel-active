@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build_and_test:
+  build:
     docker:
       - image: cimg/php:8.0.0
     steps:
