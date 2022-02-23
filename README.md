@@ -1,11 +1,11 @@
 Laravel Active
 ======
 [![Build Status](https://travis-ci.org/letrunghieu/active.png?branch=master)](https://travis-ci.org/letrunghieu/active)
-[![Latest Stable Version](https://poser.pugx.org/hieu-le/active/v/stable.svg)](https://packagist.org/packages/hieu-le/active)
+[![Latest Stable Version](https://poser.pugx.org/timgreenwood/laravel-active/v/stable.svg)](https://packagist.org/packages/timgreenwood/laravel-active)
 [![Code Climate](https://codeclimate.com/github/letrunghieu/active/badges/gpa.svg)](https://codeclimate.com/github/letrunghieu/active)
 [![Test Coverage](https://codeclimate.com/github/letrunghieu/active/badges/coverage.svg)](https://codeclimate.com/github/letrunghieu/active/coverage)
-[![Total Downloads](https://poser.pugx.org/hieu-le/active/downloads.svg)](https://packagist.org/packages/hieu-le/active)
-[![License](https://poser.pugx.org/hieu-le/active/license.svg)](https://packagist.org/packages/hieu-le/active)
+[![Total Downloads](https://poser.pugx.org/timgreenwood/laravel-active/downloads.svg)](https://packagist.org/packages/timgreenwood/laravel-active)
+[![License](https://poser.pugx.org/timgreenwood/laravel-active/license.svg)](https://packagist.org/packages/timgreenwood/laravel-active)
 
 The helper class for Laravel applications to get active class base on current url.
 
@@ -23,7 +23,7 @@ Since version 7.0, the major version of this library will match the major versio
 Require this package as your dependencies:
 
 ```
-composer require hieu-le/active
+composer require timgreenwood/laravel-active
 ```
 > If you are using Laravel 5.5+, you do not need to manually register the ServiceProvider and Alias.
 
