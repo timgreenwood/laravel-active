@@ -30,7 +30,7 @@ jobs:
       - run: php --version
 
       # Composer install
-      - run: composer install -n --prefer-dist
+      - run: composer install
 
       # run tests with phpunit or codecept
       - run: ./vendor/bin/phpunit
