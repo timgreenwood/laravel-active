@@ -15,6 +15,11 @@
       "homepage": "https://www.timgreenwood.co.uk"
     }
   ],
+  "scripts": {
+    "post-autoload-dump": [
+      "@php ./vendor/bin/testbench package:discover --ansi"
+    ]
+  },
   "require": {
     "php": "^8.0",
     "laravel/framework": "^9.0"

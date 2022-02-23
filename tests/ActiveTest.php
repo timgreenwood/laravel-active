@@ -6,7 +6,6 @@ use TimGreenwood\Active\Active;
 use Illuminate\Contracts\Http\Kernel as HttpKernelContract;
 use Illuminate\Http\Request;
 use Orchestra\Testbench\TestCase;
-use TimGreenwood\Active\ActiveServiceProvider;
 
 class ActiveTest extends TestCase
 {
@@ -525,7 +524,7 @@ class ActiveTest extends TestCase
     protected function getPackageProviders($app)
     {
         return [
-            ActiveServiceProvider::class,
+            \TimGreenwood\Active\ActiveServiceProvider::class,
         ];
     }
 
