@@ -10,8 +10,9 @@ The helper class for Laravel applications to get active class.
 Since version 9.0, the major version of this library will match the major version of Laravel.
 
 | Laravel version | Active library version |
-|-----------------|---------------------|
-| 9.x             | 9.x                 |
+|-----------------|------------------------|
+| 10.x            | 10.x                   |
+| 9.x             | 9.x                    |
 
 ## Installation
 
