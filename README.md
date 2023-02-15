@@ -30,4 +30,5 @@ Append this line to your `aliases` array in `config/app.php`
 
 ## Changelog:
 
-* v9.0: support Laravel 9
+* v10.0.0 : support Laravel 10
+* v9.0.0  : support Laravel 9
